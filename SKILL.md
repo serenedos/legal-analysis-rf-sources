@@ -1,7 +1,7 @@
 ---
 name: legal-analysis-rf-sources
 description: "Russian legal sources: official codex URLs and API."
-version: 0.1.0
+version: 0.1.1
 author: Sergey Popov
 license: MIT
 platform: [linux, macos, windows]
@@ -75,6 +75,6 @@ Use the current `rdk` from the page's iframe link. Convert valid `windows-1251` 
 # Verification Rules
 
 - Obtain and read the specific online source. Knowing an article number or an instrument title is not source verification.
-- Existence and identifying details of a judicial act require separate verification; use `judicial-act-verification` where applicable.
+- Existence and identifying details of a judicial act require separate verification. This repository does not provide a judicial-act verification skill.
 - The source-retrieval decision does not itself establish the legal conclusion. Apply the source to the facts under `legal_analysis`.
 

@@ -10,6 +10,13 @@ All notable changes to this project will be documented in this file.
 - Support separate corpus selections for code sets, individual codes, and specific federal laws.
 - Add provenance, edition, checksum, and corpus verification commands.
 
+## [0.1.1] - 2026-10-04
+
+### Changed
+
+- Removed the reference to the not-yet-released `judicial-act-verification` skill.
+- Clarified that judicial-act verification is outside the scope of this repository.
+
 ## [0.1.0] - 2026-10-04
 
 ### Added

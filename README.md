@@ -2,7 +2,7 @@
 
 An AI agent skill for retrieving and verifying Russian statutory sources.
 
-Version: `0.1.0`  
+Version: `0.1.1`  
 License: MIT  
 Copyright: Sergey Popov
 
@@ -16,7 +16,7 @@ This skill helps an agent locate, retrieve, and verify Russian legal source text
 
 It is intended to work with the related `legal_analysis` skill, which provides the broader method for facts, legal qualification, competing interpretations, and calibrated confidence.
 
-## Scope of version 0.1.0
+## Scope of version 0.1.1
 
 This release retrieves source text from the official online portals. It does not install, update, or manage a local corpus. A selective local corpus and its management tool are planned for a later version.
 
@@ -29,7 +29,7 @@ legal-analysis-rf-sources/
 ├── LICENSE
 ├── CHANGELOG.md
 ├── .gitignore
-└── (no local corpus in version 0.1.0)
+└── (no local corpus in version 0.1.1)
 ```
 
 ## Source priority
@@ -51,5 +51,4 @@ When switching from the primary online source to the fallback, record why.
 ## Related skills
 
 - `legal_analysis` — legal reasoning and source-grounded analysis.
-- `judicial-act-verification` — verification of the existence and details of judicial acts.
 
