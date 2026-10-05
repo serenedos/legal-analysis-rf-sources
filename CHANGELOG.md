@@ -4,11 +4,22 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- Optional layer C integration through the separate `legal-corpus` tool.
+- First-run guidance using the separate tool's `python legal_corpus.py status`
+  and `python legal_corpus.py setup` commands.
+- Explicit fallback to online sources A/B when the local corpus is absent or setup is declined.
+
+### Changed
+
+- Draft version advanced to `0.2.0` for the optional corpus integration.
+- Clarified that the skill must not assume a developer-specific filesystem path.
+
 ### Planned
 
-- Add an optional local corpus with selective installation and update controls.
-- Support separate corpus selections for code sets, individual codes, and specific federal laws.
-- Add provenance, edition, checksum, and corpus verification commands.
+- Publish the separate `legal-corpus` tool and this skill only after clean-machine verification.
+- Add a stable launcher/discovery contract for invoking `legal-corpus` from any working directory.
 
 ## [0.1.1] - 2026-10-04
 
